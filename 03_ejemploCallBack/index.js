@@ -37,17 +37,43 @@ function second() {
 
 // first(second);
 
+/**
+ * This function returns the number 100.
+ * @returns 100
+ */
 function soyCien(){
     return 100;
 }
 
+/**
+ * `soyDocientos()` returns the number 200
+ * @returns 200
+ */
 function soyDocientos() {
     return 200;
 }
 
+/**
+ * The sumaFunciones function takes two functions as arguments and returns the sum of the results of
+ * those two functions.
+ * @param functionOne - a function that returns a number
+ * @param functionTwo - a function that returns a number
+ * @returns function sumaFunciones(functionOne, functionTwo){
+ *     const suma = functionOne() + functionTwo()
+ *     return suma;
+ * }
+ */
 function sumaFunciones(functionOne, functionTwo){
     const suma = functionOne() + functionTwo()
     return suma;
 }
 
-console.log(sumaFunciones(soyCien, soyDocientos));
+/* Calling the sumaFunciones function and passing the soyCien and soyDocientos functions as arguments. */
+// console.log(sumaFunciones(soyCien, soyDocientos));
+
+/* Calling the setTimeout function and passing a function as an argument. */
+// setTimeout(function(){
+//     console.log("He ejecutado la función");
+// },6000);
+
+console.log('ejecuto script INICIA')

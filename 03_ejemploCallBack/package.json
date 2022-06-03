@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "inicia": "nodemon index.js"
+    "inicia": "nodemon index.js",
+    "ejercicio_uno": "nodemon 01_ejercicio.js",
+    "ejercicio_dos": "nodemon 02_ejercicio.js",
+    "ejercicio_tres": "nodemon 03_ejercicio.js",
+    "ejercicio_cuatro": "nodemon 04_ejercicio.js"
   },
   "keywords": [],
   "author": "",
