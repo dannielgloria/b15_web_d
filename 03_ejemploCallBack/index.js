@@ -17,6 +17,8 @@ function entradaUsuario(callback) {
 // entradaUsuario(saludar)
 
 /**
+ * Ejemplo que se lo ocurrio al co-sensei Daniel 
+ * 
  * First() is a function that takes a second() function as an argument and calls it after 5 seconds
  * @param second - is a function that is passed as a parameter to the first function.
  */
@@ -30,7 +32,22 @@ function first(second) {
 };
 
 function second() {
-    console.log('Segundo');
+    return 'Segundo';
 };
 
 // first(second);
+
+function soyCien(){
+    return 100;
+}
+
+function soyDocientos() {
+    return 200;
+}
+
+function sumaFunciones(functionOne, functionTwo){
+    const suma = functionOne() + functionTwo()
+    return suma;
+}
+
+console.log(sumaFunciones(soyCien, soyDocientos));
